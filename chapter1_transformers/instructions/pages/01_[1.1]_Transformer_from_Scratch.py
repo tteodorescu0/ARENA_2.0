@@ -389,7 +389,7 @@ print(reference_gpt2.to_str_tokens("56873+3184623=123456789-1000000000"))
 > * We learn a dictionary of vocab of tokens (sub-words).
 > * We (approx) losslessly convert language to integers via tokenizing it.
 > * We convert integers to vectors via a lookup table.
-> * Note: input to the transformer is a sequence of *tokens* (ie integers), not vectors
+> * Note: The input to the transformer is a sequence of *tokens* (i.e. integers), not vectors.
 
 
 ## Text generation
